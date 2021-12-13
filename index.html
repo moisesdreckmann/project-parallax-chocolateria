@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A melhor chocolateria do sul do Brasil. Venha conhecer já!">
+    <meta name="robots" content="index, nofollow">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="preload" as="style" href="estilo.css">
+    <link rel="preload" as="style" href="icomoon/style.css">
+    <link rel="preload" href="font/Helvetica-Neue-Font/" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css" media="screen">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <title>Chocolateria</title>
+</head>
+<body>
+    <header id="home">
+        <label id="label-menu" for="input-menu"><i class="icon-bars"></i></label>
+        <input id="input-menu" type="checkbox" name="menu"> 
+        <nav>
+            <div class="nav-link">
+                <a href="#home">HOME</a>
+                <a href="#pedidos">PEDIDOS</a>
+                <a href="#historia">HISTORIA</a>
+                <a href="#contato">CONTATO</a>
+            </div>
+            <div class="nav-img">
+                <a class="nav-img__face" class="a-img" href="http://facebook.com"><img src="imagens/face.webp" alt="acesse a pagina no facebook"></a>
+                <a class="nav-img__twitter" class="a-img" href="http://twitter.com"><img src="imagens/twitter.webp" alt="acesse a pagina no facebook"></a>
+            </div>   
+        </nav>
+        <h1>Chocolateria</h1>
+        <p>- Desde 1896 -</p>
+    </header>
+    <section id="pedidos" class="conteudo">
+        <div class="conteudo__div1">
+            <h1>Doces & Eventos</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut dolorem ullam culpa sint soluta rerum molestiae 
+                accusantium aliquam praesentium, repellat quam magnam, incidunt accusamus nobis quis.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ea quis explicabo repudiandae dolor natus provident 
+                soluta numquam molestias necessitatibus sit, quaerat optio. Doloremque veniam illum.
+            </p>
+            <h2> <a href="#">Veja o Menu</a><i class="icon-angles-right"></i></h2>
+        </div>
+        <picture>
+            <div class="conteudo__div2">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="imagens/conteudo-img1-300.webp" type="image/webp">
+                    <source media="(max-width: 550px)" srcset="imagens/conteudo-img1.webp" type="image/webp">
+                    <source media="(max-width: 650px)" srcset="imagens/conteudo-img1-250.webp" type="image/webp">
+                    <source media="(max-width: 850px)" srcset="imagens/conteudo-img1-300.webp" type="image/webp">
+                    <img class="div2__img1" src="imagens/conteudo-img1.webp" alt="primeira imagem com trufas em formatos variados">
+                    
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="imagens/conteudo-img2-300.webp" type="image/webp">
+                    <source media="(max-width: 550px)" srcset="imagens/conteudo-img2.webp" type="image/webp">
+                    <source media="(max-width: 650px)" srcset="imagens/conteudo-img2-250.webp" type="image/webp">
+                    <source media="(max-width: 850px)" srcset="imagens/conteudo-img2-300.webp" type="image/webp">
+                    <img class="div2__img2" src="imagens/conteudo-img2.webp" alt="segunda imagem com trufas em formatos variados" >
+                    
+                </picture>
+            </div>
+        </picture>
+    </section>
+    <section id="parallax2">
+        <div>
+            <h1>O vício em chocolate é o único vício que vale a pena</h1>
+        </div>
+    </section>
+    <section id="historia" class="conteudo">
+        <div class="conteudo__div1">
+            <h1>Nossa História</h1>
+            <p class="historia__p">
+                Conhecendo Nossa Chocolateria  <i class="icon-hand-holding-heart"></i>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit hic distinctio mollitia a, nobis voluptatum voluptate repellat 
+                adipisci ipsam quia, illo quaerat delectus eius optio odio quasi. Nemo, delectus neque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere beatae neque cumque fugiat sapiente, provident quasi eum numquam 
+                autem voluptas facilis vel tempore eveniet ab, quod corporis quos? A, dignissimos.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit mollitia nulla nesciunt vel, facere et velit in distinctio 
+                laudantium beatae delectus enim ex excepturi ratione explicabo laboriosam quod ipsam commodi.
+            </p>    
+        </div>
+        <picture>
+            <div class="conteudo__div3">
+                <img class="div3__img1" src="imagens/historia.webp" alt="caixa de trufas">
+            </div>
+        </picture>
+    </section>
+    <footer id="contato">
+        <h1>Fale Conosco</h1>
+        <address>
+            chocolateria@gmail.com | (99)999999999
+        </address>
+                <form action="" method="post" class="contato__form">
+                    <fieldset>
+                        <div class="form__area1">
+                            <label for="nome"><input type="text" name="nome" id="c-nome" maxlength="20" required placeholder="Nome"></label>
+                            <label for="email"><input type="email" name="email" id="c-email" maxlength="20" required placeholder="E-mail"> </label>
+                            <label for="telefone"><input type="tel" name="telefone" id="c-telefone" maxlength="11" pattern="[0-9]{11}" required placeholder="Telefone"> </label>
+                        </div>
+                    </fieldset>
+                    <div class="form__area2">
+                        <textarea name="texto" id="c-texto" cols="30" rows="10" maxlength="250" placeholder="Digite aqui sua mensagem..."></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+        <div id="rodape-div">
+             <p>&copy; Site desenvolvido por anark. Com orgulho para quem ama chocolate.</p>
+        </div>
+    </footer>
+</body>
+</html>
