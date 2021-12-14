@@ -663,7 +663,6 @@ button:hover {
     #rodape-div > p {
         font-size: 0.8em;
     }
-
     
 }
 
@@ -699,3 +698,8 @@ button:hover {
     }
 }
 
+@media screen and (max-height: 460px) {
+    #contato {
+        height: 470px;
+    }
+}
