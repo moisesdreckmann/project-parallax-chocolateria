@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
 }
 
 * {
@@ -28,6 +29,7 @@ html {
 body {
     max-width: 100vw;
     font-family: var(--fontepadrão);
+    overflow-x: hidden;
 }
 
 /*NAV MENU*/
@@ -62,12 +64,16 @@ nav {
 nav > .nav-link a {
     color: #fff6ecc0;
     text-decoration: none;
-    padding: 25px 0px;
+    padding: 25px;
     font-size: 0.8em;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 nav > .nav-link a:hover {
+    color: white;
+}
+
+nav > .nav-link a:active {
     color: white;
 }
 
@@ -153,6 +159,7 @@ header {
     background-attachment: fixed;
     height: 880px;
     max-width: 100vw;  
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.438);
 }
 
 header h1 {
@@ -377,6 +384,8 @@ header p {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 350px;
+    box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.425),
+                inset -5px -5px 20px rgba(0, 0, 0, 0.418);
 }
 
 #parallax2 h1 {
@@ -507,7 +516,7 @@ header p {
 
 #contato {
     width: 100vw;
-    height: 600px;
+    height: 100vh;
     padding: 80px;
     background-color: #573a37;
     position: relative;
@@ -627,12 +636,6 @@ button:hover {
     font-family: var(--fontetitulo);
 }
 
-@media screen and (max-height: 550px) {
-    #contato {
-        height: 570px;
-    }
-}
-
 @media screen and (max-width: 804px) {
 
     #contato {
@@ -682,10 +685,6 @@ button:hover {
         margin-right: 0;
     }
 
-    #contato {
-        height: 565px;
-    }
-
     #contato address {
         text-align: center;
     }
@@ -700,21 +699,3 @@ button:hover {
     }
 }
 
-@media screen and (max-height: 900px) {
-    #contato {
-        height: 740px;
-    }
-}
-
-@media screen and (max-height: 667px) {
-
-    #contato {
-        height: 660px;
-    }
-}
-
-@media screen and (max-height: 590px) {
-    #contato {
-        height: 600px;
-    }
-}
