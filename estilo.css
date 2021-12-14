@@ -157,7 +157,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 880px;
+    height: 1300px;
     max-width: 100vw;  
     box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.438);
 }
@@ -167,7 +167,7 @@ header h1 {
     text-align: center;
     font-size: 6em;
     color: rgb(255, 246, 236);
-    padding-top: 280px;
+    padding-top: 300px;
     font-weight: normal;
     padding-bottom: 20px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.226);
@@ -214,9 +214,9 @@ header p {
 
 .conteudo {
     width: 100vw;
-    height: 640px;
+    height: 800px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 80px;
     background-color: var(--cor1);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.336);
@@ -377,7 +377,7 @@ header p {
 
 #parallax2 {
     width: 100vw;
-    height: 950px;
+    height: 1300px;
     background-image: url(imagens/back2.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -391,7 +391,7 @@ header p {
 #parallax2 h1 {
    text-align: center;
    font-size: 2.5em;
-   padding: 0 15px;
+   padding: 200px 15px 0 15px;
    margin: auto;
    font-family: var(--fontetitulo);
    color: white;
