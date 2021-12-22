@@ -9,6 +9,7 @@
 html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
+    scroll-snap-type: y proximity;
 }
 
 * {
@@ -220,6 +221,7 @@ header p {
     padding: 80px;
     background-color: var(--cor1);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.336);
+    scroll-snap-align: start;
 }
 
 .conteudo__div1 {
@@ -399,6 +401,16 @@ header p {
 
 /*SECTION THREE*/
 
+.conteudo2 {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.336);
+}
+
 .historia__p {
     align-self: center;
     color: var(--cor3);
@@ -410,6 +422,7 @@ header p {
 #historia {
     position: relative;
     z-index: 0;
+    scroll-snap-align: start;
 }
 
 .div3__img1 {
@@ -520,6 +533,7 @@ header p {
     padding: 80px;
     background-color: #573a37;
     position: relative;
+    scroll-snap-align: start;
 }
 
 #contato h1 {
