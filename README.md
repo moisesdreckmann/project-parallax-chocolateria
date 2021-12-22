@@ -10,3 +10,4 @@
 * Otimização de imagens e icones para boa performance
 * SEO
 * Acessibilidade
+* Arquitetura BEM
