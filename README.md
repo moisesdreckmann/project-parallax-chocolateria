@@ -11,3 +11,5 @@
 * SEO
 * Acessibilidade
 * Arquitetura BEM
+
+Link: https://moisesdreckmann.github.io/project-parallax-chocolateria/
